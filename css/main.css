@@ -1,0 +1,247 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #000;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	margin: 0;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background: rgb(55,143,217);
+	background: linear-gradient(324deg, rgba(55,143,217,1) 0%, rgba(78,191,254,1) 100%);
+	padding-top: 62px;
+	padding-bottom: 90px;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+}
+
+.offer {
+	margin-top: 140px;
+	width: 575px;
+}
+
+.title {
+	font-size: 37px;
+
+}
+
+.title span {
+	font-size: 59px;
+}
+
+.button {
+	color: #000;
+	background-color: #ffd429;
+	font-family: 'Ubuntu', sans-serif;
+	display: block;
+	width: 220px;
+	padding: 19px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: background-color 0.5s ease;
+}
+
+.button:hover {
+	background-color: #f2c71a;
+}
+
+.intro {
+	margin-bottom: 40px;
+	margin-top: 30px;
+	width: 410px;
+}
+
+.luggage {
+	margin-right: -5%;
+}
+
+.expectation {
+	padding-top: 100px;
+	padding-bottom: 115px;
+}
+
+.section-title {
+	font-size: 30px;
+	text-align: center;
+}
+
+.advantages {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-top: 65px;
+}
+
+.advantage {
+	width: 320px;
+	background: url(../img/icon1.jpg) no-repeat top center;
+	padding-top: 87px;
+}
+
+.advantage-title {
+	font-size: 19px;
+}
+
+.advantage-text {
+	margin-top: 10px;
+}
+
+.advantage-travel {
+	background: url(../img/icon2.jpg) no-repeat top center;
+}
+
+.advantage-value {
+	background: url(../img/icon3.jpg) no-repeat top center;
+}
+
+.mail {
+	background-color: #ecf3f8;
+	padding: 100px 0;
+}
+
+.form {
+	margin-top: 55px;
+}
+
+.input {
+	width: 340px;
+	border: 1px solid #bbbbbb;
+	border-radius: 2px;
+	height: 45px;
+	display: block;
+    margin: 15px auto;
+    padding-left: 20px;
+}
+
+.button-form {
+	border: 0;
+	cursor: pointer;
+	margin: 15px auto;
+	width: 340px;
+}
+
+.footer {
+	background-color: #164d7a;
+	padding: 55px 0;
+}
+
+.credits {
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+}
+
+
+/*Responsive*/
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+
+	.container {
+		width: 960px;
+	}
+
+	.luggage {
+		width: 560px;
+	    height: auto;
+	    margin-top: 50px;
+	    margin-right: 0;
+	}
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+
+	.container {
+		width: 720px;
+	}
+
+	.wrapper {
+		flex-direction: column;
+	}
+
+	.offer {
+		width: 100%;
+	}
+
+	.intro {
+		width: 100%;
+	}
+
+	.luggage {
+		display: block;
+		width: 631px;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	.advantages {
+		flex-direction: column;
+	}
+
+	.advantage {
+		width: auto;
+		margin-bottom: 30px;
+	}
+
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+
+	.container {
+		width: 540px;
+	}
+
+	.luggage {
+		width: 550px;
+    	height: auto;
+	}
+
+	.input {
+		width: 100%;
+	}
+
+	.button-form {
+		width: 100%;
+	}
+}
+
+/* 0 - 576px */
+@media screen and (max-width: 576px) {
+
+	.container {
+		width: 90%;
+	}
+
+	.luggage {
+	    width: 295px;
+	    height: auto;
+}
